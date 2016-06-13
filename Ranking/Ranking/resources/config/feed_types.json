@@ -1,0 +1,47 @@
+[
+  {
+    "translation_key": "topfreeapplications",
+    "urlPrefix": "https://itunes.apple.com/<%= country_code %>/rss/topfreeapplications/<%= parameters %>",
+    "urlSuffix": "xml"
+  },
+  {
+    "translation_key": "toppaidapplications",
+    "urlPrefix": "https://itunes.apple.com/<%= country_code %>/rss/toppaidapplications/<%= parameters %>",
+    "urlSuffix": "xml"
+  },
+  {
+    "translation_key": "topgrossingapplications",
+    "urlPrefix": "https://itunes.apple.com/<%= country_code %>/rss/topgrossingapplications/<%= parameters %>",
+    "urlSuffix": "xml"
+  },
+  {
+    "translation_key": "topfreeipadapplications",
+    "urlPrefix": "https://itunes.apple.com/<%= country_code %>/rss/topfreeipadapplications/<%= parameters %>",
+    "urlSuffix": "xml"
+  },
+  {
+    "translation_key": "toppaidipadapplications",
+    "urlPrefix": "https://itunes.apple.com/<%= country_code %>/rss/toppaidipadapplications/<%= parameters %>",
+    "urlSuffix": "xml"
+  },
+  {
+    "translation_key": "topgrossingipadapplications",
+    "urlPrefix": "https://itunes.apple.com/<%= country_code %>/rss/topgrossingipadapplications/<%= parameters %>",
+    "urlSuffix": "xml"
+  },
+  {
+    "translation_key": "newapplications",
+    "urlPrefix": "https://itunes.apple.com/<%= country_code %>/rss/newapplications/<%= parameters %>",
+    "urlSuffix": "xml"
+  },
+  {
+    "translation_key": "newfreeapplications",
+    "urlPrefix": "https://itunes.apple.com/<%= country_code %>/rss/newfreeapplications/<%= parameters %>",
+    "urlSuffix": "xml"
+  },
+  {
+    "translation_key": "newpaidapplications",
+    "urlPrefix": "https://itunes.apple.com/<%= country_code %>/rss/newpaidapplications/<%= parameters %>",
+    "urlSuffix": "xml"
+  }
+]

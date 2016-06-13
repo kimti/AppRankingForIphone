@@ -1,0 +1,102 @@
+ [
+  {
+  "id": "",
+  "translation_key": "all"
+  },
+  {
+  "id": "6018",
+  "translation_key": "books"
+  },
+  {
+  "id": "6000",
+  "translation_key": "business"
+  },
+  {
+  "id": "6022",
+  "translation_key": "catalogs"
+  },
+  {
+  "id": "6017",
+  "translation_key": "education"
+  },
+  {
+  "id": "6016",
+  "translation_key": "entertainment"
+  },
+  {
+  "id": "6015",
+  "translation_key": "finance"
+  },
+  {
+  "id": "6023",
+  "translation_key": "food&drink"
+  },
+  {
+  "id": "6014",
+  "translation_key": "games"
+  },
+  {
+  "id": "6013",
+  "translation_key": "health&fitness"
+  },
+  {
+  "id": "6012",
+  "translation_key": "lifestyle"
+  },
+  {
+  "id": "6020",
+  "translation_key": "medical"
+  },
+  {
+  "id": "6011",
+  "translation_key": "music"
+  },
+  {
+  "id": "6010",
+  "translation_key": "navigation"
+  },
+  {
+  "id": "6009",
+  "translation_key": "news"
+  },
+  {
+  "id": "6021",
+  "translation_key": "newsstand"
+  },
+  {
+  "id": "6008",
+  "translation_key": "photo&video"
+  },
+  {
+  "id": "6007",
+  "translation_key": "productivity"
+  },
+  {
+  "id": "6006",
+  "translation_key": "reference"
+  },
+  {
+  "id": "6005",
+  "translation_key": "socialnetworking"
+  },
+  {
+  "id": "6004",
+  "translation_key": "sports"
+  },
+  {
+  "id": "6003",
+  "translation_key": "travel"
+  },
+  {
+  "id": "6002",
+  "translation_key": "utilities"
+  },
+  {
+  "id": "6001",
+  "translation_key": "weather"
+  },
+  {
+  "id": "6024",
+  "translation_key": "shopping"
+  }
+  ]
