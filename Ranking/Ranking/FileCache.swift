@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CryptoSwift
+//import CryptoSwift
 
 class FileCache{
     
@@ -38,7 +38,7 @@ class FileCache{
                 //TODO
             }
         }
-        let newPath = chchePath + path.md5() + suffix
+        let newPath = chchePath + path.md5 + suffix
         return newPath
     }
     

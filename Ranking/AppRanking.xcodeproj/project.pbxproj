@@ -18,6 +18,7 @@
 		327A7D8B1CDF42990046A195 /* ModelSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A7D8A1CDF42990046A195 /* ModelSerializer.swift */; };
 		327A7D8F1CE08DA60046A195 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A7D8E1CE08DA60046A195 /* Model.swift */; };
 		327A7D911CE1C9760046A195 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A7D901CE1C9760046A195 /* Constant.swift */; };
+		3286A7A61D0F2DC60055B9C2 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3286A7A51D0F2DC60055B9C2 /* ExtensionString.swift */; };
 		328B8AC31CE49B4800C24F37 /* ExtensionDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328B8AC21CE49B4800C24F37 /* ExtensionDictionary.swift */; };
 		328B8FAE1CE581E900C24F37 /* SettingProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328B8FAD1CE581E900C24F37 /* SettingProtocal.swift */; };
 		328B90891CE5A66800C24F37 /* country_cn.json in Resources */ = {isa = PBXBuildFile; fileRef = 328B8FB11CE5A66700C24F37 /* country_cn.json */; };
@@ -325,6 +326,8 @@
 		327A7D8A1CDF42990046A195 /* ModelSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelSerializer.swift; sourceTree = "<group>"; };
 		327A7D8E1CE08DA60046A195 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		327A7D901CE1C9760046A195 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3286A7A21D0F2D950055B9C2 /* Ranking-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ranking-Bridging-Header.h"; sourceTree = "<group>"; };
+		3286A7A51D0F2DC60055B9C2 /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
 		328B8AC21CE49B4800C24F37 /* ExtensionDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDictionary.swift; sourceTree = "<group>"; };
 		328B8FAD1CE581E900C24F37 /* SettingProtocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingProtocal.swift; sourceTree = "<group>"; };
 		328B8FB11CE5A66700C24F37 /* country_cn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = country_cn.json; sourceTree = "<group>"; };
@@ -670,6 +673,8 @@
 				32FE5E211CF8BB5400FBE565 /* CountryTableViewCell.swift */,
 				32FE5E221CF8BB5400FBE565 /* CountryTableViewCell.xib */,
 				32F7B87E1CFCA02400B6FD36 /* ExtensionData.swift */,
+				3286A7A21D0F2D950055B9C2 /* Ranking-Bridging-Header.h */,
+				3286A7A51D0F2DC60055B9C2 /* ExtensionString.swift */,
 			);
 			path = Ranking;
 			sourceTree = "<group>";
@@ -1020,7 +1025,7 @@
 		327A7D5F1CDE49580046A195 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = kimti;
 				TargetAttributes = {
@@ -1345,6 +1350,7 @@
 				322692451CE247C000C44621 /* CountryView.swift in Sources */,
 				3298FA481CE7334B0006F253 /* FeedTypeView.swift in Sources */,
 				328B8AC31CE49B4800C24F37 /* ExtensionDictionary.swift in Sources */,
+				3286A7A61D0F2DC60055B9C2 /* ExtensionString.swift in Sources */,
 				327A7D911CE1C9760046A195 /* Constant.swift in Sources */,
 				3298FA4C1CE735BD0006F253 /* ExtensionArray.swift in Sources */,
 				32FE5DCC1CEF737A00FBE565 /* ExtensionUIColor.swift in Sources */,
@@ -1468,6 +1474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1479,6 +1486,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kimti.ranking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ranking/Ranking-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1488,6 +1497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jintian liang (NWB4CV2RBG)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1499,6 +1509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kimti.ranking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ranking/Ranking-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
